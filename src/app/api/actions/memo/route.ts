@@ -22,7 +22,7 @@ import {
   export const GET = async (req: Request) => {
     const payload: ActionGetResponse = {
       title: "Trying to get this Function onchain",
-      icon: new URL("/hacker.png", new URL(req.url).origin).toString(),
+      icon: new URL("/next.svg", new URL(req.url).origin).toString(),
       description: "Send a message on-chain using a Memo",
       label: "Send Memo",
     };
